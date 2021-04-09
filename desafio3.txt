@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 En la rama master
+=======
+En la rama desafio3_2
+>>>>>>> desafio3_2
