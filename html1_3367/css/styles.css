@@ -1,0 +1,180 @@
+body {
+    margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+/*ENCABEZADO*/
+#sobre-encabezado {
+    background-color: #0282F9; 
+    height: 40px;
+}
+header {
+    /* background-color: bisque;  */
+    height: 100px;
+}
+figure {
+    width: 20%;
+    height: 100%;
+    margin: 0;
+    float: left;
+    padding-left: 80px;
+    padding-top: 5px;
+}
+#logo {
+    width: 81px; 
+    height: 81px;
+}
+#nav-header {
+    width: 70%;
+    float: right;
+    height: 100%;
+}
+ul.menu {
+    height: 100%;
+    margin: 0;
+    padding-left: 0;
+}
+ul.menu li {
+    display: inline-block;
+    margin: 0 15px;
+    height: 100%;
+    padding-top: 35px;
+    box-sizing: border-box;
+}
+ul.menu li:hover {
+    border-bottom: solid 5px #0282F9;
+    transition: ease-in 0.2s;
+}
+.a-nav {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+/*BANNER*/
+#banner {
+    height: 680px;
+}
+#banner img {
+    height: 100%;
+    width: 100%;
+}
+
+/*CONTENIDO*/
+/*SECTION 1*/
+.container1 {
+    height: 800px;
+}
+#sec1 {
+    width: 70%;
+    margin-top: 30px;
+    padding: 0 30px;
+    float: left;
+}
+.art1 {
+    width: 25%;
+}
+.art2 {
+    width: 65%;
+}
+.img-sec1 {
+    height: 250px;
+    width: 100%;
+}
+#sec1 article {
+    float: left;
+    margin: 5px;
+    height: 317px;
+}
+article h3{
+    height: 65px;
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#sec1  article:hover {
+    color: #0282F9;
+    cursor: pointer;
+}
+
+/*SECTION 2*/
+#sec2 {
+    width: 70%;
+    margin-top: 30px;
+    padding: 0 30px;
+    float: left;
+    display: flex;
+}
+#sec2 article {
+    padding: 8px;
+}
+.art-sec2 p{
+    font-size: x-small;
+    color: lightgreen;
+}
+.art-sec2 h6 {
+    color: #0282F9;
+}
+.art-sec2:hover h5 {
+    color: #0282F9;
+}
+
+
+/*ASIDE 1*/
+#asi-1 {
+    width: 20%;
+    float: right;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+#asi-1 div {
+    height: 30px;
+}
+#asi-1 div h3 {
+    float: left;
+    color: #0282F9
+}
+#asi-1 div h5 {
+    float: right;
+    color: #0282F9;
+}
+#asi-1 h4:hover {
+    color: #0282F9;
+    cursor: pointer;
+}
+.btn-aside {
+    z-index: 1;
+    position: absolute;
+}
+#mujer-maravilla {
+    position: relative;
+    bottom: 50px;
+    right: -70px;
+}
+
+
+
+
+/*EJEMPLOS*/
+
+/*BLOQUE 1*/
+/* span {
+    color: red;
+} */
+/*BLOQUE 2*/
+/* #bloque2 {
+    height: 500px;;
+}
+a:link {
+    color: aquamarine;
+}
+a:visited {
+    color: blueviolet;
+}
+a:hover {
+    color: lightgreen;
+}
+a:active {
+    color: yellow;
+} */
